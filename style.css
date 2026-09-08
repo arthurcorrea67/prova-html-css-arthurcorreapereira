@@ -1,0 +1,66 @@
+body {
+font-family: Arial, sans-serif; /*faltava o ; se nao o font-family nao funciona */
+background-color: #f4f4f4;
+margin: 0px;
+padding: 0;  /*faltava fechar o : */
+}
+header {
+background-color: #333; /*faltava colocar o ; para funcionar */
+color: white;
+padding: 20px;
+text-align: center;
+}
+h1 {
+font-size: 2em;
+color: white; /*o color estava escrito errado */
+}
+nav ul {
+list-style-type: none;
+display: flex;
+justify-content: center; /*faltava colcocar o ; */
+padding: 0;
+}
+nav ul li {
+margin: 0 15px;
+}
+nav ul li  { /* tinha um a aqui, acredito que atrapalha /*
+color: white;
+text-decoration: none; /*faltava colocar o ; */
+font-weight: bold;
+}
+nav ul li
+:hover /* nao sei oq fazer aqui, mas o hover tem alguma coisa errada */
+{
+color: #ffcc00; /*FALTAVa colocar o ; para a cor funcionar */
+text-decoration: underline;
+}
+section {
+padding: 20px;
+margin: 20px auto;
+max-width: 800px;
+background: #fff;
+border-radius: 5px; /*faltava colocar o ; */
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.destaque {
+font-weight: bold;
+color: #e74c3c; /*aqui faltava a # no codigo da cor */
+font-size: 18px; /*faltava colocar o : para funcionar */
+}
+img {
+width: 100%; /*faltava colocar o : para funcionar */
+height: auto;
+border-radius: 5px;
+}
+form label {
+display: block;
+margin-top: 10px; /*faltava colocar o ; */
+font-weight: bold;
+}
+form input {
+width: 100%;
+padding: 8px;
+margin-top: 5px; /*faltava o : */
+border: 1px solid #ccc; /*faltava o ;  */
+border-radius: 4px;
+}
