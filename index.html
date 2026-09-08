@@ -1,0 +1,52 @@
+<!DOCTYPE htm>
+<html lan="en">
+<head>
+<meta charset="UTF-8">
+<title>Portal do Aluno</title> <!--aqui o title nao estava certo, faltava o ">" -->
+<link rel="stylesheet" href="style.css">  <!--aqui está errado pq esta escrito styles.css, inves de style.css -->
+</head>
+<body> <!--o body estava escrito errado -->
+<header>
+<h1>Bem-vindo ao Portal do Aluno</h1> <!--aqui o h1 estava escrito errado -->
+<nav>
+<ul>
+<li><a href="#home">Início</li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#cursos">Cursos</a><li>
+<li><a href="#contato">Contato</a></li>
+</ul> 
+</nav>
+</header>
+<main>
+<section id="home">
+<h2>Nossos Cursos</h2> <!--aqui o h2 estava escrito errado -->
+<p class="destaque">Conheça os melhores cursos técnicos da região.</p> <!--faltava o simbolo = do p class -->
+<img src="curso.jpg" alt="Curso de desenvolvimento">
+</section>
+<section id="sobre">
+<h2>Sobre Nós</h2>
+<p>Somos uma escola técnica com <strong>mais de 10 anos</strong> de experiência no mercado.</p> <!--faltava fechar o strong e o paragrafo -->
+</section>     
+<section id="cursos">
+<h2>Lista de Cursos</h2>
+<ul>
+<li>Desenvolvimento de Sistemas
+<li>Redes de Computadores</li>
+<li>Administração</li>
+</ul>
+</section>
+<section id="contato">
+<h2>Contato</h2>
+<form action="/enviar" metodo="post">
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome">
+<label for="email">E-mail:</label> <!--faltava fechar o label -->
+<input type="email" id="email" name="email"> <!--email escrito errado -->
+<button type="submit">Enviar</button>
+</form>
+</section>
+</main>
+<footer>
+<p>&copy 2025 Escola Técnica. Todos os direitos reservados.</p>
+</footer>
+</html>
